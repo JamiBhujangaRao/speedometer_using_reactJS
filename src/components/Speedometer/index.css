@@ -1,0 +1,50 @@
+.container {
+  background-color: #07080c;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+img {
+  width: 70%;
+}
+.title {
+  color: white;
+  font-size: 25px;
+}
+.about {
+  font-size: 17px;
+  color: #cbd5e1;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  height: 45px;
+  width: 100px;
+  padding: 07px;
+  border-radius: 08px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+.acc {
+  background-color: #0b69ff;
+  color: white;
+  border-width: 0px;
+}
+.brk {
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  color: #cbd5e1;
+}
